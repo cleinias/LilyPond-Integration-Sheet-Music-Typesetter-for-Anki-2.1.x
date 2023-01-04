@@ -3,7 +3,7 @@ LilyPond Integration (Sheet Music Typesetter) for Anki 2.1.x (tested on versions
 
 <b><i>LilyPond - music notation for everyone - <a href="http://lilypond.org/" rel="nofollow">http://lilypond.org/</a> </i></b>
 With this addon, you can add sheet music snippets to your deck, wrapped in <code>[lilypond]c d e[/lilypond]</code> tags.
-For this addon to work, you have to install <b>LilyPond</b> first. For Windows and Mac, please follow the installation instructions for running <b>LilyPond</b> on the command line. (<b>LilyPond</b> needs to be in your <i>PATH</i>).
+For this addon to work, you have to install <b>LilyPond</b> first. For Windows and Mac, please follow the installation instructions for running <b>LilyPond</b> on the command line. (<i><b>lilypond</b></i> executable needs to be in your <i>PATH</i>).
 <ul><li><b>LilyPond</b> homepage: <a href="http://lilypond.org" rel="nofollow">http://lilypond.org</a> </li><li><b>LilyPond</b> download: <a href="http://lilypond.org/download.html" rel="nofollow">http://lilypond.org/download.html</a> </li><li><b>LilyPond</b> tutorial: <a href="http://lilypond.org/doc/v2.16/Documentation/learning/index.html" rel="nofollow">http://lilypond.org/doc/v2.16/Documentation/learning/index.html</a> </li></ul>
 This addon is hsted on GitHub: <a href="https://github.com/girasole123/LilyPond-Integration-Sheet-Music-Typesetter-for-Anki-2.1.x">https://github.com/girasole123/LilyPond-Integration-Sheet-Music-Typesetter-for-Anki-2.1.x</a>.
 Original addon for <b>Anki 2.1.x</b> on GitHub: <a href="https://github.com/GydeonMylls/Anki-LilyPond" rel="nofollow">https://github.com/GydeonMylls/Anki-LilyPond</a>. Unlike the original module, this one has a menu to edit templates.
