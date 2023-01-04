@@ -5,8 +5,7 @@
 
 '''
 LilyPond (GNU Music Typesetter) integration addon for Anki 2.1.x
-
-Code is based on / inspired by libanki's LaTeX integration.
+Code is based on / inspired by libanki's LaTeX integration and Andreas Klauer's LiliPond integration add-ons.
 '''
 # http://lilypond.org/doc/Documentation/usage/lilypond-output-in-other-programs#inserting-lilypond-output-into-other-programs
 
