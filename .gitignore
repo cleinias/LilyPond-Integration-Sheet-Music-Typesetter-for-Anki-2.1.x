@@ -1,0 +1,5 @@
+# No python virtual env
+venv
+
+# no pycharm project
+.idea
