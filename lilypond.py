@@ -182,8 +182,15 @@ def _buildImg(ly, fname):
     log = open(lilypondTmpFile+".log", "w")
 
 #    if call(lilypondCmd, stdout=log, stderr=log):
+    print("##################################")
+    print('#######   LILYPOND OUTPUT   ######')
+    print("##################################")
     if call(lilypondCmd):
-        return _errMsg("lilypond")
+        print("##################################")
+        print('#### END OF LILYPOND OUTPUT ######')
+        print("##################################")
+        if call(lilypondCmd):
+            return _errMsg("lilypond")
 
     # add to media
     try:
