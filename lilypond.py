@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Copyright (c) 2012 Andreas Klauer <Andreas.Klauer@metamorpher.de>
 # Copyright (c) 2019 Luca Panno <panno.luca@gmail.com>
+# Copyright (c) 2024 Stefano Franchi <stefano.franchi@gmail.com>
 # License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
 
 '''
@@ -180,7 +181,8 @@ def _buildImg(ly, fname):
 
     log = open(lilypondTmpFile+".log", "w")
 
-    if call(lilypondCmd, stdout=log, stderr=log):
+#    if call(lilypondCmd, stdout=log, stderr=log):
+    if call(lilypondCmd):
         return _errMsg("lilypond")
 
     # add to media
